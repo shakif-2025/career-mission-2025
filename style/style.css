@@ -1,0 +1,234 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(#e6e6fa, #b8e7fa);
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d1321;
+  line-height: 100%;
+  text-align: center;
+  padding: 17px 24px;
+  background-image: linear-gradient(#ffa500, #ffd447);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.btn:hover {
+  background-image: linear-gradient(orange, tomato);
+}
+
+.banner,
+.why-development-card,
+.why-development,
+.my-inspiration,
+.my-inspration-card,
+.target,
+.footer {
+  width: 87.5%;
+  margin: 120px auto 100px auto;
+}
+
+.banner-content {
+  width: 100%;
+  margin: auto;
+}
+
+.my-inspration-card {
+  margin: 60px auto;
+}
+
+.navbar {
+  background-color: #ffffff99;
+  padding: 24px 24px;
+  border-bottom: 1px solid #c6dbff;
+  display: flex;
+  gap: 881px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 28px;
+}
+
+.navbar h1 span {
+  color: #ffa500;
+  display: inline;
+}
+
+.banner {
+  padding: 40px 60px;
+
+  border-radius: 16px;
+  background-color: #e6edf9;
+}
+
+.banner-content * {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-content h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  color: #0d1321;
+}
+
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0d1321;
+}
+
+.banner-content img {
+  width: 240.28px;
+}
+
+.heading-content {
+  text-align: center;
+}
+
+.heading-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.heading-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0d1321;
+  margin-bottom: 30px;
+}
+
+.why-development-card {
+  background-color: #e6edf9;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.why-development-card-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.why-development-card-content {
+  width: 60%;
+}
+
+.why-development-card-image {
+  width: 40%;
+}
+
+.why-development-card-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.my-inspiration {
+  text-align: center;
+}
+
+.my-inspiration p {
+  font-family: "Azeret Mono", monospace;
+}
+
+.heading h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.my-inspration-card {
+  border: 1px solid #0d132133;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.my-inspration-card iframe {
+  width: 1036px;
+  height: 556px;
+  border-radius: 16px;
+}
+
+.target-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.target-card * {
+  text-align: left;
+}
+
+.target-card h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.target-card img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 30px;
+}
+
+.target-card {
+  text-align: center;
+  background-image: linear-gradient(#e6edf9, #9de5ff);
+  padding: 50px 100px;
+  width: 364px;
+  border-radius: 16px;
+}
+
+.footer {
+  background-color: #ffffff99;
+  padding: 32px 150px 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  font-family: "Azeret Mono", monospace;
+}
+
+.footer img {
+  width: 36px;
+  height: 36px;
+}
+
+.footer-social-media {
+  display: flex;
+  gap: 24px;
+}

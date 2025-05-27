@@ -1,0 +1,83 @@
+/* For laptop device */
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: flex;
+    gap: 550px;
+    justify-content: center;
+  }
+
+  .my-inspration-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .target-card-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .target-card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .target-card * {
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* For tablet device */
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .why-development-card {
+    flex-direction: column-reverse;
+  }
+
+  .why-development-card-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .why-development-card-image {
+    width: 100%;
+  }
+
+  .footer {
+    gap: 20px;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+}
+
+/* For mobile device upto 425px*/
+
+@media screen and (max-width: 640px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .target-card-container {
+    gap: 20px;
+  }
+
+  .footer {
+    gap: 15px;
+  }
+}
