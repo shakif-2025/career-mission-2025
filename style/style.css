@@ -4,7 +4,10 @@
 3.google font apply kora (done) .
 4.responsive kora (done)
 */
-
+.flex-box * {
+  display: flex;
+  align-items: center;
+}
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -75,6 +78,12 @@ img {
 .navbar h1 span {
   color: #ffa500;
   display: inline;
+}
+
+/*navbar text  */
+.flex-box * {
+  display: flex;
+  align-items: center;
 }
 
 .banner {
