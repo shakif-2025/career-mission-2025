@@ -1,3 +1,10 @@
+/* Requirments 
+1. body te Gradient , button a gradient also hover effect (done)
+2.Youtube video (done).
+3.google font apply kora (done) .
+4.responsive kora (done)
+*/
+
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -24,6 +31,7 @@ img {
   background-image: linear-gradient(#ffa500, #ffd447);
   border-radius: 10px;
   box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
 }
 
 .btn:hover {
